@@ -49,16 +49,16 @@
       <div class="profile">
         <img src="assets/img/profileImg.jpg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Manish Mewara</a></h1>
-        <span style="color: white;"><h7 style="margin-left: 33px;">Software Developer - JAVA</h7></span>
+        <div style="text-align: -webkit-center; color: white;"><h7>Software Developer - JAVA</h7></div>
         <div class="social-links mt-3 text-center">
-          <div id="messageContainer" style="color: white; width: 205px;"></div>
           <a class="instagram" onclick="copyMail()"><i class="bx bxl-gmail"></i></a>
           <a href="https://github.com/ManishMewara13" class="google-plus" target="_blank"><i
-              class="bx bi-github"></i></a>
-          <a href="https://www.linkedin.com/in/manish-mewara-bb9702165/" class="linkedin" target="_blank"><i
+            class="bx bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/manish-mewara-bb9702165/" class="linkedin" target="_blank"><i
               class="bx bxl-linkedin"></i></a>
-        </div>
-      </div>
+            </div>
+          </div>
+          <div id="messageContainer" style="color: white; text-align: -webkit-center;"></div>
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
@@ -738,7 +738,7 @@
       // Optionally, clear the message after a few seconds
       setTimeout(function () {
         messageContainer.textContent = "";
-      }, 300); // Adjust the timeout as needed
+      }, 400); // Adjust the timeout as needed
     }
   </script>
 </body>
